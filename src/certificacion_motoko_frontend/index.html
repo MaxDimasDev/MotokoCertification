@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Reservation System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        form h2 {
+            margin-top: 0;
+        }
+        form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        form input, form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        #events, #reservations {
+            margin-top: 20px;
+        }
+        .event, .reservation {
+            padding: 10px;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+        .event h3, .reservation h3 {
+            margin: 0;
+        }
+        .event button, .reservation button {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Event Reservation System</h1>
+    </header>
+    <main>
+        <div id="root"></div>
+    </main>
+    <script type="module" src="./src/App.js"></script>
+</body>
+</html>
